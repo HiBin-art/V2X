@@ -1,29 +1,35 @@
-# 强化学习系统使用指南
+📘 V2X 强化学习使用指南
+🛠 环境要求
+Python: 3.6
 
-## 环境要求
-- **Python**: 3.6
-- **TensorFlow**: 1.12.0
+TensorFlow: 1.12.0
 
-## 代码使用说明
-
-### 训练多智能体RL模型
-需要同时运行以下三个文件：
-```bash
-python main_marl_train.py
-python Environment_marl.py 
-python replay_memory.py
-训练基准单智能体RL模型
-需要同时运行以下三个文件：
+🚀 代码使用说明
+🧠 训练多智能体强化学习模型（MARL）
+请同时运行以下三个文件：
 
 bash
-python main_sarl_train.py
-python Environment_marl.py 
-python replay_memory.py
-测试所有模型
-在同一环境中测试需要运行：
+复制
+编辑
+python main_marl_train.py          # 主训练脚本（多智能体）
+python Environment_marl.py         # 多智能体环境配置
+python replay_memory.py            # 经验回放模块
+🤖 训练单智能体强化学习模型（SARL）
+请同时运行以下三个文件：
 
 bash
-python main_test.py
-python Environment_marl_test.py
-python replay_memory.py
-并确保模型文件存放在/model目录下
+复制
+编辑
+python main_sarl_train.py          # 主训练脚本（单智能体）
+python Environment_marl.py         # 环境配置（同上）
+python replay_memory.py            # 经验回放模块
+🧪 测试所有智能体的强化学习模型
+请同时运行以下三个文件：
+
+bash
+复制
+编辑
+python main_test.py                # 测试脚本
+python Environment_marl_test.py    # 测试环境
+python replay_memory.py            # 经验回放模块
+
