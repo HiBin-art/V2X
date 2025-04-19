@@ -1,0 +1,73 @@
+-------- marl, marl_model------
+n_veh: 4, n_neighbor: 1
+Sum V2I rate: 40.6328 Mbps
+Pr(V2V): 1.0
+-------- sarl, sarl_model------
+n_veh: 4, n_neighbor: 1
+Sum V2I rate: 38.68252 Mbps
+Pr(V2V): 0.985
+--------random ------------
+Rand Sum V2I rate: 37.04313 Mbps
+Rand Pr(V2V): 0.9075
+--------DPRA ------------
+Dpra Sum V2I rate: 41.21726 Mbps
+Dpra Pr(V2V): 1.0
+-------- marl, marl_model------
+n_veh: 4, n_neighbor: 1
+Sum V2I rate: 40.6328 Mbps
+Pr(V2V): 1.0
+-------- sarl, sarl_model------
+n_veh: 4, n_neighbor: 1
+Sum V2I rate: 38.68252 Mbps
+Pr(V2V): 0.985
+--------random ------------
+Rand Sum V2I rate: 37.04313 Mbps
+Rand Pr(V2V): 0.9075
+--------DPRA ------------
+Dpra Sum V2I rate: 41.21726 Mbps
+Dpra Pr(V2V): 1.0
+-------- marl, marl_model------
+n_veh: 4, n_neighbor: 1
+Sum V2I rate: 40.6328 Mbps
+Pr(V2V): 1.0
+-------- sarl, sarl_model------
+n_veh: 4, n_neighbor: 1
+Sum V2I rate: 38.68252 Mbps
+Pr(V2V): 0.985
+--------random ------------
+Rand Sum V2I rate: 37.04313 Mbps
+Rand Pr(V2V): 0.9075
+--------DPRA ------------
+Dpra Sum V2I rate: 41.21726 Mbps
+Dpra Pr(V2V): 1.0
+DPRA策略在V2I速率上表现最佳，且与MARL相当在V2V成功率上。
+MARL在优化过程中接近DPRA的效果，尤其是在V2V成功率上表现良好。
+SARL相较于MARL稍逊，但仍保持较高的性能。
+随机选择明显表现不如强化学习方法。-------- marl, marl_model------
+n_veh: 4, n_neighbor: 1
+Sum V2I rate: 40.6328 Mbps
+Pr(V2V): 1.0
+-------- sarl, sarl_model------
+n_veh: 4, n_neighbor: 1
+Sum V2I rate: 38.68252 Mbps
+Pr(V2V): 0.985
+--------random ------------
+Rand Sum V2I rate: 37.04313 Mbps
+Rand Pr(V2V): 0.9075
+--------DPRA ------------
+Dpra Sum V2I rate: 41.21726 Mbps
+Dpra Pr(V2V): 1.0
+-------- marl, marl_model------
+n_veh: 4, n_neighbor: 1
+Sum V2I rate: 40.6328 Mbps
+Pr(V2V): 1.0
+-------- sarl, sarl_model------
+n_veh: 4, n_neighbor: 1
+Sum V2I rate: 40.67935 Mbps
+Pr(V2V): 0.9925
+--------random ------------
+Rand Sum V2I rate: 37.04313 Mbps
+Rand Pr(V2V): 0.9075
+--------DPRA ------------
+Dpra Sum V2I rate: 41.21726 Mbps
+Dpra Pr(V2V): 1.0
