@@ -9,8 +9,6 @@ TensorFlow: 1.12.0
 请同时运行以下三个文件：
 
 bash
-复制
-编辑
 python main_marl_train.py          # 主训练脚本（多智能体）
 python Environment_marl.py         # 多智能体环境配置
 python replay_memory.py            # 经验回放模块
@@ -18,8 +16,6 @@ python replay_memory.py            # 经验回放模块
 请同时运行以下三个文件：
 
 bash
-复制
-编辑
 python main_sarl_train.py          # 主训练脚本（单智能体）
 python Environment_marl.py         # 环境配置（同上）
 python replay_memory.py            # 经验回放模块
@@ -27,8 +23,6 @@ python replay_memory.py            # 经验回放模块
 请同时运行以下三个文件：
 
 bash
-复制
-编辑
 python main_test.py                # 测试脚本
 python Environment_marl_test.py    # 测试环境
 python replay_memory.py            # 经验回放模块
